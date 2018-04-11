@@ -1,0 +1,8 @@
+{
+    "name"              :"plentymarketstestplugin",
+    "description"       :"My plugin",
+    "namespace"         :"HelloWorld",
+    "author"            :"jeevitha",
+    "type"              :"template",
+    "serviceProvider"   :"Helloworld\\Providers\\HelloworldServiceProvider"
+}
