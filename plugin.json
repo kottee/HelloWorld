@@ -1,7 +1,7 @@
 {
     "name"              :"plentymarketstestplugin",
     "description"       :"My plugin",
-    "namespace"         :"HelloWorld",
+    "namespace"         :"Helloworld",
     "author"            :"jeevitha",
     "type"              :"template",
     "serviceProvider"   :"Helloworld\\Providers\\HelloworldServiceProvider"
