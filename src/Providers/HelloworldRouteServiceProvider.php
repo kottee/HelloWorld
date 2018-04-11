@@ -14,6 +14,7 @@ class HelloworldRouteServiceProvider extends RouteServiceProvider
     {
      $this->getLogger(__METHOD__)->error('Novalnet::CallbackMailNotSend', 'rouetest');
         $router->get('hello','Helloworld\Controllers\ContentController@sayHello');
-     $router->post('hello','Helloworld\Controllers\ContentController@sayHello');
+     $router->post('hello12','Helloworld\Controllers\ContentController@sayHello');
+     $router->any('hello34','Helloworld\Controllers\ContentController@sayHello');
     }
 }
