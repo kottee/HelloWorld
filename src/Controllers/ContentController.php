@@ -10,7 +10,7 @@ use Plenty\Plugin\Log\Loggable;
 class ContentController extends Controller
 {
  use Loggable;
-        public function sayHello(Twig $twig)
+        public function sayHello(Twig $twig):string
     {
          $this->getLogger(__METHOD__)->error('Novalnet::CallbackMailNotSend', 'testdata');
         return $twig->render('Helloworld::content.hello');
